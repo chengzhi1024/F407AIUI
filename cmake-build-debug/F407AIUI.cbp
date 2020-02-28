@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="F407AIUI"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="F:/CLion/F407AIUI/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;F:/CLion/F407AIUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;F:/CLion/F407AIUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;F:/CLion/F407AIUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;F:/CLion/F407AIUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="F:/CLion/F407AIUI/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;F:/CLion/F407AIUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;F:/CLion/F407AIUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;F:/CLion/F407AIUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;F:/CLion/F407AIUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="F407AIUI.elf">
+				<Option output="F:/CLion/F407AIUI/cmake-build-debug/F407AIUI.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLion/F407AIUI/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__weak=__attribute__((weak))"/>
+					<Add option="-D__packed=__attribute__((__packed__))"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="F:/CLion/F407AIUI/Inc"/>
+					<Add directory="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="F:/CLion/F407AIUI/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="F:/CLion/F407AIUI/Drivers/CMSIS/Include"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/arm-none-eabi"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/backward"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/include"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/include-fixed"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;F:/CLion/F407AIUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 F407AIUI.elf"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;F:/CLion/F407AIUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;F:/CLion/F407AIUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;F:/CLion/F407AIUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="F407AIUI.elf/fast">
+				<Option output="F:/CLion/F407AIUI/cmake-build-debug/F407AIUI.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/CLion/F407AIUI/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__weak=__attribute__((weak))"/>
+					<Add option="-D__packed=__attribute__((__packed__))"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="F:/CLion/F407AIUI/Inc"/>
+					<Add directory="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="F:/CLion/F407AIUI/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="F:/CLion/F407AIUI/Drivers/CMSIS/Include"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/arm-none-eabi"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/backward"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/include"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/include-fixed"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;F:/CLion/F407AIUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 F407AIUI.elf/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;F:/CLion/F407AIUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;F:/CLion/F407AIUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;F:/CLion/F407AIUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="F:/CLion/F407AIUI/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;F:/CLion/F407AIUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;F:/CLion/F407AIUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;F:/CLion/F407AIUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;F:/CLion/F407AIUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/STM32F407VETx_FLASH.ld">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Src/aiui.c">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Src/base64.c">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Src/gpio.c">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Src/main.c">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Src/md5.c">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Src/rtc.c">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Src/stm32f4xx_hal_msp.c">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Src/stm32f4xx_hal_timebase_tim.c">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Src/stm32f4xx_it.c">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Src/syscalls.c">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Src/system_stm32f4xx.c">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Src/tim.c">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/Src/usart.c">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/startup/startup_stm32f407xx.s">
+			<Option target="F407AIUI.elf"/>
+		</Unit>
+		<Unit filename="F:/CLion/F407AIUI/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
